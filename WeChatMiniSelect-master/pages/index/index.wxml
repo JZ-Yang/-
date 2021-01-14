@@ -1,0 +1,17 @@
+
+<view class="main">
+  <view class="container" bindtap="close">
+  <view class="select-wrap">
+    <select id="select" options="{{options}}" key="city_id" text="city_name" bind:change="change" bindblur='depart'></select>
+  </view>
+</view>
+<i></i>
+
+    <input placeholder='请输入姓名' class='name' bindblur='name' bindinput='bindNameInput' type='text'></input>
+    <i>{{errName}}</i>
+    <input placeholder='请输入身份证号' class='identity' bindblur='identity' bindinput='bindIdentityInput' type="text"></input>
+    <i>{{errIdentity}}</i>
+    <input placeholder='请输入体温' class='temperature' bindinput='bindTemperatureInput' bindblur='temperature' type='text'></input>
+    <i>{{errTemperature}}</i>
+    <button class='send' bindtap="changeText" >生成二维码</button>
+</view>

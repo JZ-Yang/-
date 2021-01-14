@@ -1,0 +1,45 @@
+page {
+  background-color: #fff;
+  padding: 80rpx 0;
+}
+
+.select-wrap {
+  width: 73%;
+}
+
+.selected {
+  margin-top: 50rpx;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto 0;
+  background: #fff;
+}
+
+input{
+  height: 75rpx;
+  padding-left:20rpx; 
+  width:70%;
+  border: 1px solid #bedbfc;
+  font-size: 30rpx;
+  color: #171819;
+  border-radius: 6rpx;
+}
+i{
+  font-size: 25rpx;
+  color: red;
+  height: 50rpx;
+  margin-right: auto;
+  margin-left: 15%;
+}
+
+.send{
+  margin-top: 100rpx;
+  background: #4293f4;
+  width:75%;
+  color: white;
+  font-size: 36rpx;
+}
